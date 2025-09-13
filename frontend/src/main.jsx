@@ -1,7 +1,7 @@
 const TopBar = () => (
   <header className="top-bar">
     <img
-      src="https://www.unicaen.fr/wp-content/uploads/2020/10/LOGO-UNICAEN_V-2.2-N.png"
+      src="https://e7.pngegg.com/pngimages/505/146/png-clipart-caen-logo-brand-product-font-universite-de-caen-caen-logo.png"
       alt="Unicaen logo"
     />
     <span>UNICAEN Portal</span>

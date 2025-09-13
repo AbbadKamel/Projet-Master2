@@ -4,7 +4,7 @@ const TopBar = ({ user, onSignOut }) => (
   <header className="top-bar">
     <div className="brand">
       <img
-        src="https://www.unicaen.fr/wp-content/uploads/2021/05/logo-UNICAEN-bleu.png"
+        src="https://e7.pngegg.com/pngimages/505/146/png-clipart-caen-logo-brand-product-font-universite-de-caen-caen-logo.png"
         alt="Unicaen logo"
       />
       <span>UNICAEN Portal</span>

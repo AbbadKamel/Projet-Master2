@@ -19,10 +19,38 @@
         margin: 0;
         font-family: 'Roboto', sans-serif;
         background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      }
+
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .main {
+        flex: 1;
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
+      }
+
+      .top-bar {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .top-bar img {
+        height: 30px;
+        margin-right: 10px;
+      }
+
+      .top-bar span {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--primary-dark);
       }
       .auth-container {
         width: 340px;

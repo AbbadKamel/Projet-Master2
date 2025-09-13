@@ -1,3 +1,10 @@
+const TopBar = () => (
+  <header className="top-bar">
+    <img src="https://via.placeholder.com/40" alt="logo" />
+    <span>EduPortal</span>
+  </header>
+);
+
 const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -16,7 +23,14 @@ const Login = () => {
   );
 };
 
-const App = () => <Login />;
+const App = () => (
+  <>
+    <TopBar />
+    <div className="main">
+      <Login />
+    </div>
+  </>
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);

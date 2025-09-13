@@ -3,31 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>E-Learning Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
     <style>
+      :root {
+        --primary: #2a7de1;
+        --primary-dark: #1b4f9a;
+      }
+      * {
+        box-sizing: border-box;
+      }
       body {
-        font-family: Arial, sans-serif;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        background: linear-gradient(135deg, var(--primary), var(--primary-dark));
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        min-height: 100vh;
       }
       .auth-container {
-        width: 300px;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 8px;
+        width: 340px;
+        background: #fff;
+        padding: 40px 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
+      }
+      .auth-container h1 {
+        margin: 0;
+        font-size: 24px;
+        text-align: center;
+        color: var(--primary-dark);
       }
       form {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
+      }
+      input {
+        padding: 10px 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
       }
       button {
-        padding: 6px 10px;
+        padding: 10px;
+        background: var(--primary);
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      button:hover {
+        background: var(--primary-dark);
+      }
+      .note {
+        font-size: 0.85rem;
+        text-align: center;
+        color: #555;
       }
     </style>
   </head>

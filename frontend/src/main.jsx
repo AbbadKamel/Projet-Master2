@@ -5,13 +5,13 @@ const Login = () => {
 
   return (
     <div className="auth-container">
-      <h2>Login</h2>
+      <h1>Campus Login</h1>
       <form onSubmit={handleSubmit}>
         <input type="email" placeholder="Email" required />
         <input type="password" placeholder="Password" required />
-        <button type="submit">Login</button>
+        <button type="submit">Sign In</button>
       </form>
-      <p>Use the credentials provided by your university to log in.</p>
+      <p className="note">Access is provided by the school administration.</p>
     </div>
   );
 };

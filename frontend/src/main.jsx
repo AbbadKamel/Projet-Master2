@@ -29,7 +29,7 @@ const Login = ({ onLogin }) => {
       onLogin({ role: 'Admin' });
     } else if (email === 'student@gmail.com' && password === 'student') {
       onLogin({ role: 'Student' });
-    } else if (email === 'teacher@gmail.com' && password === 'professor') {
+    } else if (email === 'teacher@gmail.com' && password === 'teacher') {
       onLogin({ role: 'Teacher' });
     } else {
       setError('Invalid credentials');

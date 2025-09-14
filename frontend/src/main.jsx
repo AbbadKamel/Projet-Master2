@@ -4,7 +4,7 @@ const TopBar = ({ user, onSignOut }) => (
   <header className="top-bar">
     <div className="brand">
       <img
-        src="C:\Users\kamel\OneDrive\Bureau\all_new\Projet M2\frontend\design_logo\LaRucheAcadémie.Logo_fond.blanc-horizontal.png"
+        src="https://raw.githubusercontent.com/AbbadKamel/Projet-Master2/main/design_logo/LaRucheAcad%C3%A9mie.Logo_fond.blanc-horizontal.png"
         alt="La Ruche Académie logo"
       />
       <span>La Ruche Académie</span>

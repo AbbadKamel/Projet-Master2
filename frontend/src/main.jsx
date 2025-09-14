@@ -4,7 +4,7 @@ const TopBar = ({ user, onSignOut }) => (
   <header className="top-bar">
     <div className="brand">
       <img
-        src="../design logo/LaRucheAcadémie.Logo_fond.blanc-horizontal.png"
+        src="../design_logo/LaRucheAcadémie.Logo_fond.blanc-horizontal.png"
         alt="La Ruche Académie logo"
       />
       <span>La Ruche Académie</span>

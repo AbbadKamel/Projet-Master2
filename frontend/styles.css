@@ -7,7 +7,7 @@
 }
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: linear-gradient(135deg, var(--primary), var(--primary-dark));
 }
 #root {
@@ -76,6 +76,7 @@ body {
   font-size: 24px;
   text-align: center;
   color: var(--primary-dark);
+  font-family: 'Archivo Black', sans-serif;
 }
 form {
   display: flex;
@@ -86,6 +87,7 @@ input {
   padding: 10px 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
 }
 button {
   padding: 10px;
@@ -95,6 +97,7 @@ button {
   border-radius: 6px;
   font-weight: 500;
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
 }
 button:hover {
   background: var(--primary-dark);
@@ -103,6 +106,7 @@ button:hover {
   font-size: 0.85rem;
   text-align: center;
   color: #555;
+  font-style: italic;
 }
 .error {
   font-size: 0.9rem;
@@ -125,4 +129,5 @@ button:hover {
 .page h2 {
   margin: 0;
   color: var(--primary-dark);
+  font-family: 'Roboto', sans-serif;
 }

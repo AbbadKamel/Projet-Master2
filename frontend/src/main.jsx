@@ -4,10 +4,10 @@ const TopBar = ({ user, onSignOut }) => (
   <header className="top-bar">
     <div className="brand">
       <img
-        src="https://www.unicaen.fr/wp-content/uploads/2021/05/logo-UNICAEN-bleu.png"
-        alt="Unicaen logo"
+        src="../design logo/LaRucheAcadémie.Logo_fond.blanc-horizontal.png"
+        alt="La Ruche Académie logo"
       />
-      <span>UNICAEN Portal</span>
+      <span>La Ruche Académie</span>
     </div>
     {user && (
       <div className="user-menu">

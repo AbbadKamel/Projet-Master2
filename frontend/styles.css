@@ -15,8 +15,9 @@
 }
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background: linear-gradient(135deg, var(--base-amber), var(--base-brown));
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+
 }
 #root {
   min-height: 100vh;
@@ -83,7 +84,9 @@ body {
   margin: 0;
   font-size: 24px;
   text-align: center;
-  color: var(--base-brown);
+  color: var(--primary-dark);
+  font-family: 'Archivo Black', sans-serif;
+
 }
 form {
   display: flex;
@@ -94,6 +97,7 @@ input {
   padding: 10px 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
 }
 button {
   padding: 10px;
@@ -103,6 +107,7 @@ button {
   border-radius: 6px;
   font-weight: 500;
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
 }
 button:hover {
   background: var(--base-brown);
@@ -110,7 +115,9 @@ button:hover {
 .note {
   font-size: 0.85rem;
   text-align: center;
-  color: var(--base-dark);
+  color: #555;
+  font-style: italic;
+
 }
 .error {
   font-size: 0.9rem;
@@ -132,5 +139,7 @@ button:hover {
 
 .page h2 {
   margin: 0;
-  color: var(--base-brown);
+  color: var(--primary-dark);
+  font-family: 'Roboto', sans-serif;
+
 }
